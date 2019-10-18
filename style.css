@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F6FA;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6 {
+    font-size: 14px;
+    margin: 0px;
+    justify-self: left;
+}
+
+.trash {
+    width: 15px;
+    cursor: pointer;
+    justify-content: end;
+}
+
+.avatar {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.first-row {
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    justify-items: stretch;
+    padding: 15px;
+}
+
+.row {
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: stretch;
+}
+
+.last-row {
+    border-bottom: 1px solid #DADADA;
+}
+
+#count {
+    font-weight: bold;
+}
+
+.new-message-row {
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#add-message {
+    margin-right: 50px;
+    width: 80%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.btn-blue {
+    border-color: cadetblue;
+    color: cadetblue;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5%;
+    font-weight: normal;
+}
+
+.btn-blue:focus {
+    outline: 0;
+}
+
+.content {
+    width: 100%
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.champ-search {
+    margin-right: 50px;
+    width: 80%;
+    font-size: 12px;
+    padding: 5px;
+}
